@@ -3,14 +3,23 @@ body{
     margin: 0;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
+.attempt{
+    flex: 1;
+}
 header{
     margin-left: auto;
     padding: 15px;
 
 }
-body .wrapper{
+
+.encapsule{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper{
     flex: 1;    
     display: flex;
     flex-direction: column;
@@ -19,6 +28,7 @@ body .wrapper{
 }
 footer{
     display: flex;
+    background-color: #3c4043;;
     justify-content: space-between;
 }
 
@@ -132,7 +142,7 @@ body .wrapper .search-bars{
 /* google offered in */
 body .wrapper .languages{
     font-size: small;
-    margin-bottom: 230px;
+    margin-bottom: 20 0px;
 }
 
 body .wrapper .languages a{
